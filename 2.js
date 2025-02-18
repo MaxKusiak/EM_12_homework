@@ -1,18 +1,17 @@
 const prompt = require('prompt-sync')();
 
-function isStringsEqual(programString, userString){
-    return programString == userString;
+function validateCardNumber(number){
+    return /^[45][0-9]{15}$/g;
 }
 
 function inputString(message){
     return prompt(message).trim();
 }
 
-let login = inputString("Введіть логін: ");
-let password = inputString("Введіть пароль: ");
+let number = inputString("Введіть номер банківської карти: ");
 
-if(isStringsEqual("admin", login) && isStringsEqual("12345", password)){
-    console.log("Вхід успішний.");
+if(validateCardNumber(number)){
+    console.log("Номер карти коректний.");
 }else{
-    console.log("Доступ заборонено.");
+    console.log("Номер карти не правильний.");
 }
