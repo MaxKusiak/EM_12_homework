@@ -1,0 +1,237 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "category": "Electronics",
+        "price": 99.99,
+        "inStock": true,
+        "rating": 4.5,
+        "details": {
+            "brand": "Sony",
+            "model": "WH-1000XM4",
+            "color": "Black",
+            "batteryLife": "30 hours"
+        },
+        "reviews": [
+            {
+                "user": "Alice",
+                "comment": "Great sound quality!",
+                "rating": 5,
+                "date": "2024-02-01"
+            },
+            {
+                "user": "Bob",
+                "comment": "A bit expensive but worth it.",
+                "rating": 4,
+                "date": "2024-01-15"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 699.99,
+        "inStock": false,
+        "rating": 4.8,
+        "details": {
+            "brand": "Samsung",
+            "model": "Galaxy S23",
+            "color": "Silver",
+            "storage": "256GB"
+        },
+        "reviews": [
+            {
+                "user": "Charlie",
+                "comment": "Amazing performance!",
+                "rating": 5,
+                "date": "2023-12-10"
+            },
+            {
+                "user": "David",
+                "comment": "Battery life could be better.",
+                "rating": 4,
+                "date": "2024-01-05"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "price": 59.99,
+        "inStock": true,
+        "rating": 4.2,
+        "details": {
+            "brand": "Nike",
+            "model": "Air Zoom Pegasus",
+            "color": "Blue",
+            "size": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+            ]
+        },
+        "reviews": [
+            {
+                "user": "Emily",
+                "comment": "Super comfortable for long runs.",
+                "rating": 5,
+                "date": "2024-02-02"
+            },
+            {
+                "user": "Frank",
+                "comment": "Not very durable.",
+                "rating": 3,
+                "date": "2024-01-20"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Gaming Laptop",
+        "category": "Computers",
+        "price": 1299.99,
+        "inStock": true,
+        "rating": 4.7,
+        "details": {
+            "brand": "Asus",
+            "model": "ROG Strix G15",
+            "color": "Black",
+            "ram": "16GB",
+            "storage": "512GB SSD"
+        },
+        "reviews": [
+            {
+                "user": "Kevin",
+                "comment": "Handles all games smoothly!",
+                "rating": 5,
+                "date": "2024-02-03"
+            },
+            {
+                "user": "Sophia",
+                "comment": "Runs hot sometimes.",
+                "rating": 4,
+                "date": "2024-01-22"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Coffee Maker",
+        "category": "Home Appliances",
+        "price": 49.99,
+        "inStock": true,
+        "rating": 4.3,
+        "details": {
+            "brand": "DeLonghi",
+            "model": "EC155",
+            "color": "Silver",
+            "capacity": "1.1L"
+        },
+        "reviews": [
+            {
+                "user": "Michael",
+                "comment": "Brews excellent coffee!",
+                "rating": 5,
+                "date": "2024-01-30"
+            },
+            {
+                "user": "Rachel",
+                "comment": "Takes a bit long to heat up.",
+                "rating": 3,
+                "date": "2024-01-10"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Smart Watch",
+        "category": "Wearables",
+        "price": 199.99,
+        "inStock": false,
+        "rating": 4.6,
+        "details": {
+            "brand": "Apple",
+            "model": "Watch Series 8",
+            "color": "Gold",
+            "batteryLife": "18 hours"
+        },
+        "reviews": [
+            {
+                "user": "Olivia",
+                "comment": "Perfect for tracking fitness!",
+                "rating": 5,
+                "date": "2024-02-01"
+            },
+            {
+                "user": "Daniel",
+                "comment": "Would be better with longer battery life.",
+                "rating": 4,
+                "date": "2024-01-25"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Electric Toothbrush",
+        "category": "Personal Care",
+        "price": 39.99,
+        "inStock": true,
+        "rating": 4.4,
+        "details": {
+            "brand": "Oral-B",
+            "model": "Pro 1000",
+            "color": "White",
+            "modes": [
+                "Daily Clean",
+                "Sensitive"
+            ]
+        },
+        "reviews": [
+            {
+                "user": "Emma",
+                "comment": "Cleans teeth really well!",
+                "rating": 5,
+                "date": "2024-02-05"
+            },
+            {
+                "user": "James",
+                "comment": "Battery doesn't last long.",
+                "rating": 3,
+                "date": "2024-01-28"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Desk Lamp",
+        "category": "Home & Office",
+        "price": 24.99,
+        "inStock": true,
+        "rating": 4.1,
+        "details": {
+            "brand": "Philips",
+            "model": "Hue White",
+            "color": "Black",
+            "brightnessLevels": 3
+        },
+        "reviews": [
+            {
+                "user": "Sophia",
+                "comment": "Great lighting options!",
+                "rating": 5,
+                "date": "2024-02-02"
+            },
+            {
+                "user": "Ryan",
+                "comment": "The power button feels a bit cheap.",
+                "rating": 3,
+                "date": "2024-01-15"
+            }
+        ]
+    }
+]
